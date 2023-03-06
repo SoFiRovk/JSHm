@@ -47,5 +47,3 @@ console.log(
 console.log(
   products.sort((products1, products2) => products1.price - products2.price)
 );
-
-// Здесь пишем решение, данный комментарий необходимо стереть.

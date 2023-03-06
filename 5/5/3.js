@@ -22,9 +22,5 @@ const product = [
     price: 1000,
   },
 ];
-// product.forEach((product) => {
-//   if (product["price"] / );
-//   console.log(product);
-// });
-
-// В процессе =(
+product.forEach((item) => (item.price = item.price * 0.85));
+console.log(product);
