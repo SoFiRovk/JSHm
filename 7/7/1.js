@@ -10,7 +10,7 @@
 "super-dropdown", необходимо использовать методы forEach, querySelectorAll и
 свойство classList у элементов.
 */
-const itemEl = document.querySelectorAll(".dropdown-item");
+const itemEl = document.querySelectorAll("dropdown-item");
 itemEl.forEach((element) => {
   element.classList.toggle("super-dropdown");
 });
